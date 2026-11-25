@@ -1,0 +1,25 @@
+n = int(input("Enter number of students: "))
+
+total = 0
+
+for i in range(n):
+
+    print("Student", i + 1)
+
+    sum = 0
+
+    for j in range(5):
+
+        marks = float(input("Enter marks: "))
+
+        sum += marks
+
+    avg = sum / 5
+
+    print("Average marks:", avg)
+
+    total += avg
+
+overall_avg = total / n
+
+print("Overall class average:", overall_avg)
