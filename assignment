@@ -1,0 +1,5 @@
+assignment = ['Maths', 'History', 'Civics', 'English'l
+print ("Original assignment:", assignment)
+assignment.append ("Science")
+assignment. remove (Maths")
+print ("Update assignment list is:", assignment)
