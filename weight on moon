@@ -1,0 +1,3 @@
+mass = int (input ("Enter the mass of the object (kg): "))
+print(f"The weight of the object on Earth is {mass * 9.81} N')
+print (fThe weight of the object on the Moon is {mass * 1.62} Ni)
